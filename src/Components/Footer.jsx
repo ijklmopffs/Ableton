@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <h1 className="font-bold text-5xl text-start">Ableton</h1>
         </div>
-        <div className="sm:flex-col sm:items-start mt-5 flex md:flex-row gap-10 justify-between flex-wrap items-center">
+        <div className="flex flex-col items-start mt-5 md:flex-row gap-10 justify-between flex-wrap md:items-center">
           <div className="flex flex-col">
             <a href="">Register Live or Push</a>
             <a href="">About Ableton</a>
@@ -51,8 +51,8 @@ export default function Footer() {
             <a href="">Try push in stores</a>
           </div>
         </div>
-        <div className="sm:flex-col flex justify-between mt-10 md:flex-row">
-          <div className="flex gap-4 sm:flex-col md:flex-row">
+        <div className="flex flex-col justify-between md:mt-10 md:flex-row items-start md:items-center">
+          <div className="flex gap-4 flex-col md:flex-row">
             <a href="">Archive</a>
             <a href="">Contact Us</a>
             <a href="">Press Resources</a>
@@ -61,7 +61,7 @@ export default function Footer() {
             <a href="">Cookie Settings</a>
             <a href="">Imprint</a>
           </div>
-          <div className="flex items-center gap-4 sm:mt-5">
+          <div className="flex items-center gap-4 sm:mt-5 md:mt-0">
             <p className="font-bold">Made in Berlin</p>
             <img src={logo} alt="" />
           </div>

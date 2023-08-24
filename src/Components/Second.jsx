@@ -7,11 +7,15 @@ export default function Second() {
   return (
     <>
       <section className="flex items-center justify-center mt-20">
-        <div className="relative left-20 z-10  ">
-          <img src={one} alt="" />
+        <div className="relative left-20 lg:left-96 z-10 w-56 md:w-full">
+          <img src={one} alt="" className="relative z-10" />
         </div>
-        <div className="bg-[#fbffa7] w-96 relative p-96">
-          <img src={two} alt="" className="absolute right-60 bottom-56" />
+        <div className="bg-[#fbffa7] p-56 w-96 relative md:p-72 lg:p-96 lg:right-32">
+          <img
+            src={two}
+            alt=""
+            className="absolute w-60 bottom-32 left-32 md:w-96 md:left-40 md:bottom-32 lg:bottom-48"
+          />
         </div>
       </section>
 
@@ -20,7 +24,7 @@ export default function Second() {
           Making music isn’t easy. It takes time, effort, and learning. But when
           you’re in the flow, it’s incredibly rewarding.
         </p>
-        <p className="mt-5 w-[50rem] ml-0">
+        <p className="mt-5 md:w-[50rem] ml-0">
           We feel the same way about making Ableton products. The driving force
           behind Ableton is our passion for what we make, and the people we make
           it for.

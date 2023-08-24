@@ -11,7 +11,7 @@ export default function Third() {
   return (
     <>
       <section className="mt-20 flex items-center justify-center gap-8">
-        <div className="flex flex-col gap-10 bg-[#b6ffc0] sm:p-32 md:p-56">
+        <div className="flex flex-col gap-10 bg-[#b6ffc0] p-20 md:p-32">
           <div>
             <img src={three} alt="" />
           </div>
@@ -19,7 +19,7 @@ export default function Third() {
             <img src={four} alt="" />
           </div>
         </div>
-        <div className="relative right-32">
+        <div className="relative right-20 md:right-32">
           <div>
             <img src={five} alt="" />
           </div>
@@ -67,10 +67,10 @@ export default function Third() {
 
       <section className="flex items-center flex-col justify-center gap-8 mt-20">
         <div className="flex items-center">
-          <div className="bg-[#d5b3ff] p-56 relative left-40">
-            <img src={sixa} alt="" className="relative right-80" />
+          <div className="bg-[#d5b3ff] p-28 md:p-40 relative left-40">
+            <img src={sixa} alt="" className="relative right-48 md:right-60" />
           </div>
-          <div className="relative right-64">
+          <div className="relative right-20 md:right-32">
             <img src={seven} alt="" />
           </div>
         </div>
@@ -95,11 +95,11 @@ export default function Third() {
       </section>
 
       <section className="mt-20">
-        <div className="flex items-center bg-[#b1c5ff] gap-10">
+        <div className="flex flex-col md:flex-row items-center bg-[#b1c5ff] gap-10">
           <div className="">
             <img src={last} alt="" />
           </div>
-          <div className="text-start">
+          <div className="text-start p-4">
             <p className="w-96 font-bold mb-5">
               We’re really proud of the work we’ve done so far. But there’s so
               much more to come. If you’d like to be a part of it, please join

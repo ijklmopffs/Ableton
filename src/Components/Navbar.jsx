@@ -6,11 +6,13 @@ export default function Navbar() {
     <>
       <nav className="flex items-center justify-between text-lg font-semibold">
         <div className="flex items-center gap-4">
-          <div>
+          <div className="">
             <img src={logo} alt="" />
           </div>
 
-          <div className="flex gap-8 items-center font-semibold">
+          <p className="md:hidden">Menu</p>
+
+          <div className="hidden md:flex gap-8 items-center font-semibold">
             <a href="/">Live</a>
             <a href="/">Push</a>
             <a href="/">Link</a>
@@ -21,7 +23,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="flex gap-4">
+        <div className="hidden md:flex gap-4">
           <a href="" className="font-bold text-blue-800">
             Try live for free
           </a>
