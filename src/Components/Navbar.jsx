@@ -21,8 +21,8 @@ export default function Navbar() {
           <div
             className={
               nav
-                ? "flex flex-col md:flex-row gap-8 items-center font-semibold absolute md:static z-10 bg-gray-200 top-16 p-10 w-full"
-                : "flex flex-col md:flex-row gap-8 items-center font-semibold absolute md:static z-10 bg-gray-200 top-[-100%] p-10"
+                ? "flex flex-col md:flex-row gap-8 items-center font-semibold absolute md:static z-10 bg-gray-200 md:bg-white left-0 top-16 p-8 w-full"
+                : "flex flex-col md:flex-row gap-8 items-center font-semibold absolute md:static z-10 bg-gray-200 top-[-100%] md:bg-white p-10"
             }
           >
             <a href="/">Live</a>
