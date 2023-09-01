@@ -20,7 +20,7 @@ export default function Second() {
       </section>
 
       <section className="m-auto mt-20 w-[40rem] text-start">
-        <p className="w-[34rem] font-bold text-lg ml-0">
+        <p className="w-[28rem] md:w-[34rem] font-bold text-lg ml-0">
           Making music isn’t easy. It takes time, effort, and learning. But when
           you’re in the flow, it’s incredibly rewarding.
         </p>

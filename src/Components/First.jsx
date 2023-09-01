@@ -18,7 +18,7 @@ export default function Main() {
       </section>
 
       <section className="m-auto mt-28 w-[40rem] text-start">
-        <p className="w-[34rem] font-semibold text-lg ml-0">
+        <p className="w-[28rem] md:w-[34rem] font-semibold text-lg ml-0">
           We make <span className="text-[#0000ff] font-bold">Live</span>,
           <span className="text-[#0000ff] font-bold"> Push </span>
           and <span className="text-[#0000ff] font-bold">Link</span> — unique
