@@ -10,11 +10,11 @@ export default function Second() {
         <div className="relative left-20 lg:left-96 z-10 w-56 md:w-full">
           <img src={one} alt="" className="relative z-10" />
         </div>
-        <div className="bg-[#fbffa7] p-56 w-96 relative md:p-72 lg:p-96 lg:right-32">
+        <div className="bg-[#fbffa7] p-48 w-96 right-4 sm:p-60 relative md:p-72 lg:p-96 lg:right-32">
           <img
             src={two}
             alt=""
-            className="absolute w-60 bottom-32 left-32 md:w-96 md:left-40 md:bottom-32 lg:bottom-48"
+            className="absolute w-60 bottom-28 sm:bottom-32 left-32 md:w-96 md:left-40 md:bottom-32 lg:bottom-48"
           />
         </div>
       </section>
@@ -24,7 +24,7 @@ export default function Second() {
           Making music isn’t easy. It takes time, effort, and learning. But when
           you’re in the flow, it’s incredibly rewarding.
         </p>
-        <p className="mt-5 md:w-[50rem] ml-0">
+        <p className="mt-5 w-[30rem] md:w-[50rem] ml-0">
           We feel the same way about making Ableton products. The driving force
           behind Ableton is our passion for what we make, and the people we make
           it for.
@@ -32,16 +32,16 @@ export default function Second() {
       </section>
 
       <section className="mt-20">
-        <div className="w-[50rem] flex items-center justify-center m-auto mb-20">
-          <img src={amin} alt="" />
+        <div className="w-[50rem] flex items-center md:justify-center m-auto mb-20">
+          <img src={amin} alt="" className="w-2/4 sm:w-full" />
         </div>
         <div className="m-auto mt-20 w-[40rem] text-start">
-          <p className="w-[45rem] font-bold text-lg ml-0">
+          <p className="w-96 sm:w-[35rem] md:w-[45rem] font-bold text-lg ml-0">
             We are more than 350 people from 30 different countries divided
             between our headquarters in Berlin and our offices in Los Angeles
             and Tokyo.
           </p>
-          <p className="mt-5 w-[40rem] ml-0">
+          <p className="mt-5 w-[30rem] sm:w-[40rem] ml-0">
             Most of us are active musicians, producers, and DJs, and many of us
             use Live and Push every day. We come from a wide range of cultural
             and professional backgrounds. Some of us have PhDs, some are

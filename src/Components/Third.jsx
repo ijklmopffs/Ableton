@@ -27,11 +27,11 @@ export default function Third() {
       </section>
 
       <section className="m-auto mt-20 w-[40rem] text-start">
-        <p className="w-[45rem] font-bold text-lg ml-0">
+        <p className="w-[30rem] md:w-[45rem] font-bold text-lg ml-0">
           We believe it takes focus to create truly outstanding instruments. We
           only work on a few products and we strive to make them great.
         </p>
-        <p className="mt-5 w-[40rem] ml-0">
+        <p className="mt-5 w-[30rem] sm:w-[40rem] ml-0">
           Rather than having a one-size-fits-all process, we try to give our
           people what they need to work their magic and grow. We’ve learned that
           achieving the best results comes from building teams that are richly
@@ -50,12 +50,12 @@ export default function Third() {
             We’re passionate about what we do, but we’re equally passionate
             about improving who we are.
           </p>
-          <p className="mt-5 w-[40rem] ml-0">
+          <p className="mt-5 w-[34rem] sm:w-[40rem] ml-0">
             We work hard to foster an environment where people can grow both
             personally and professionally, and we strive to create a wealth of
             opportunities to learn from and with each other.
           </p>
-          <p className="mt-5">
+          <p className="mt-5 w-[30rem] sm:w-full">
             Alongside an internal training program, employees are actively
             supported in acquiring new knowledge and skills, and coached on
             applying these in their daily work. In addition, staff-organized
@@ -66,8 +66,8 @@ export default function Third() {
       </section>
 
       <section className="flex items-center flex-col justify-center gap-8 mt-20">
-        <div className="flex items-center">
-          <div className="bg-[#d5b3ff] p-28 md:p-40 relative left-40">
+        <div className="flex items-center justify-center">
+          <div className="bg-[#d5b3ff] p-28 sm:p-32 md:p-40 relative left-40">
             <img src={sixa} alt="" className="relative right-48 md:right-60" />
           </div>
           <div className="relative right-20 md:right-32">
@@ -81,7 +81,7 @@ export default function Third() {
             exceptional talent from around the world, we will do everything we
             can to make your transition as easy as possible.
           </p>
-          <p className="mt-5 w-[40rem] ml-0">
+          <p className="mt-5 w-[30rem] md:w-[40rem] ml-0">
             If you're joining us in Berlin, we'll help with relocation and
             paperwork. We’ll even provide you with free German or English
             lessons. Plus, working in Germany means you can expect comprehensive

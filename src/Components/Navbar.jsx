@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/ableton-hallmark.ef5355379032.svg";
 
 export default function Navbar() {
+  const [nav, setNav] = useState(false);
+  const handleClick = () => {
+    setNav(!nav);
+  };
   return (
     <>
       <nav className="flex items-center justify-between text-lg font-semibold">
@@ -10,9 +14,17 @@ export default function Navbar() {
             <img src={logo} alt="" />
           </div>
 
-          <p className="md:hidden">Menu</p>
+          <p className="md:hidden cursor-pointer" onClick={handleClick}>
+            Menu
+          </p>
 
-          <div className="hidden md:flex gap-8 items-center font-semibold">
+          <div
+            className={
+              nav
+                ? "flex flex-col md:flex-row gap-8 items-center font-semibold absolute md:static z-10 bg-gray-200 top-16 p-10 w-full"
+                : "flex flex-col md:flex-row gap-8 items-center font-semibold absolute md:static z-10 bg-gray-200 top-[-100%] p-10"
+            }
+          >
             <a href="/">Live</a>
             <a href="/">Push</a>
             <a href="/">Link</a>
